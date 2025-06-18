@@ -1,0 +1,24 @@
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+
+# /start command ka response
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Namaste! Main aapka Telegram bot hoon.")
+
+# /help command ka response
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Main aapki madad kar sakta hoon. Commands:\n/start\n/help")
+
+# Main function
+def main():
+    app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
+
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("help", help_command))
+
+    print("Bot chal raha hai...")
+    app.run_polling()
+
+if __name__ == "__main__":
+    main()
+
