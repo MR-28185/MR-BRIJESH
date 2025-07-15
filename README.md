@@ -7,8 +7,11 @@ Typing SVG
 
 # 🔥 Commands
 • /start: ⚡ check bot is alive.
+
 • /tushar: 📁 upload txt file.
+
 • /stop: 🛑 stop ongoing process.
+
 • /restart: 🔮 restart the bot.
 • /cookies: 🍪 upload cookies file.
 • /e2t: 📝 edit txt file.
