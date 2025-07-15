@@ -8,7 +8,7 @@ Typing SVG
 # 🔥 Commands
 • /start: ⚡ check bot is alive.
 
-• /tushar: 📁 upload txt file.
+• /brijesh: 📁 upload txt file.
 
 • /stop: 🛑 stop ongoing process.
 
