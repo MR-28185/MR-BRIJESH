@@ -1,6 +1,5 @@
 
-# 🇮🇳 MR BRIJESH TXT UPLOADER🇮🇳
-Typing SVG
+# 🇮🇳 MR BRIJESH TXT UPLOADER🫡
 
 # 😎 Credit
 🥳 Credit Goes To MR-BRIJESH
